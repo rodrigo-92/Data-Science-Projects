@@ -2,8 +2,11 @@
 #######################
 .vscode
 
+# Env variables #
+#######################
+.env
 
-# Compiled source #
+# Compiled sources and cache #
 ###################
 *.com
 *.class
@@ -11,6 +14,7 @@
 *.exe
 *.o
 *.so
+__pycache__
 
 # Packages #
 ############
@@ -25,8 +29,9 @@
 *.tar
 *.zip
 
-# Logs and databases #
+# Logs, data folders and databases #
 ######################
+data
 *.log
 *.sql
 *.sqlite
